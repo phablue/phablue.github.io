@@ -1,0 +1,15 @@
+{
+  "name": "the-wonder-techland",
+  "main": "index.js",
+  "authors": [
+    "Hana Park"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "font-awesome": "fontawesome#~4.4.0",
+    "bootstrap": "~3.3.5"
+  }
+}
