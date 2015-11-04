@@ -7,6 +7,7 @@
     UI.prototype.navBarConfig = function() {
       return $(window).scroll((function(_this) {
         return function() {
+          console.log(_this);
           return _this.navBarStyleChangeByScrollTop();
         };
       })(this));

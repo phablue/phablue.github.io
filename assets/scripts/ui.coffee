@@ -3,6 +3,7 @@ class UI
 
   navBarConfig: ->
     $(window).scroll =>
+      console.log @
       @navBarStyleChangeByScrollTop()
 
   navBarStyleChangeByScrollTop: ->
