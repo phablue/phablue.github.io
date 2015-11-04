@@ -1,3 +1,10 @@
+section
+  text-align: center
+  margin: auto
+
+article
+  padding: 0 20px
+
 .image
   background-position: center
   background-repeat: no-repeat
@@ -6,12 +13,37 @@
 .main-img
   @extend .image
   background-image: $main-img
+  background-position: left top
   height: 500px
 
 #about-me
-  max-width: 90%
-  margin: auto
-
   .img-circle
+    @extend. .image
     background-image: $my-img
+    height: 250px
+    max-width: 250px
 
+#skills
+  .skills
+    display: inline-block
+
+    div
+      @extend .image
+      height: 128px
+      width: 128px
+      padding: 20px
+
+    #js
+      background-image: $js-img
+
+    #jquery
+      background-image: $jquery-img
+
+    #java
+      background-image: $java-img
+
+    #ruby
+      background-image: $ruby-img
+
+    #rails
+      background-image: $rails-img

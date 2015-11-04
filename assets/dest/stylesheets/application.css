@@ -33,19 +33,44 @@ a:hover {
   .navbar-brand h2:hover {
     color: #CCC; }
 
-.image, .main-img {
+section {
+  text-align: center;
+  margin: auto; }
+
+article {
+  padding: 0 20px; }
+
+.image, .main-img, #skills .skills div {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
 .main-img {
-  background-image: url("/assets/images/main-img-sm.png");
+  background-image: url("/assets/images/" "main-img-sm.png");
+  background-position: left top;
   height: 500px; }
 
-#about-me {
-  max-width: 90%;
-  margin: auto; }
-  #about-me .img-circle {
-    background-image: url("/assets/images/Me.png"); }
+#about-me .img-circle {
+  @extend. .image;
+  background-image: url("/assets/images/" "Me.png");
+  height: 250px;
+  max-width: 250px; }
+
+#skills .skills {
+  display: inline-block; }
+  #skills .skills div {
+    height: 128px;
+    width: 128px;
+    padding: 20px; }
+  #skills .skills #js {
+    background-image: url("/assets/images/" "javascripts.png"); }
+  #skills .skills #jquery {
+    background-image: url("/assets/images/" "jquery.png"); }
+  #skills .skills #java {
+    background-image: url("/assets/images/" "java.png"); }
+  #skills .skills #ruby {
+    background-image: url("/assets/images/" "ruby.png"); }
+  #skills .skills #rails {
+    background-image: url("/assets/images/" "rails.png"); }
 
 /*# sourceMappingURL=application.css.map */
