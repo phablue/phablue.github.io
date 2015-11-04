@@ -33,12 +33,19 @@ a:hover {
   .navbar-brand h2:hover {
     color: #CCC; }
 
-section {
-  margin-top: 60px; }
+.image, .main-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .main-img {
-  background: url("/assets/images/main-img-sm.png") no-repeat;
-  background-size: cover;
-  height: 500; }
+  background-image: url("/assets/images/main-img-sm.png");
+  height: 500px; }
+
+#about-me {
+  max-width: 90%;
+  margin: auto; }
+  #about-me .img-circle {
+    background-image: url("/assets/images/Me.png"); }
 
 /*# sourceMappingURL=application.css.map */

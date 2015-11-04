@@ -1,7 +1,17 @@
-section
-  margin-top: 60px
+.image
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
 
 .main-img
-  background: $main-img  no-repeat
-  background-size: cover
-  height: 500
+  @extend .image
+  background-image: $main-img
+  height: 500px
+
+#about-me
+  max-width: 90%
+  margin: auto
+
+  .img-circle
+    background-image: $my-img
+
