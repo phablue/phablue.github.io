@@ -1,6 +1,8 @@
 (function() {
   $(function() {
-    return new UI.navBarConfig();
+    var ui;
+    ui = new UI;
+    return ui.navBarConfig();
   });
 
 }).call(this);

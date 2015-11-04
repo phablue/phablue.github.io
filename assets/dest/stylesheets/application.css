@@ -53,8 +53,8 @@ article {
 #about-me .img-circle {
   @extend. .image;
   background-image: url("/assets/images/Me.png");
-  height: 250px;
-  max-width: 250px; }
+  height: 200px;
+  max-width: 200px; }
 
 #skills .skills {
   display: inline-block;
@@ -63,7 +63,7 @@ article {
     height: 100px;
     width: 100px; }
   #skills .skills #js {
-    background-image: url("/assets/images/javascrip.png"); }
+    background-image: url("/assets/images/javascript.png"); }
   #skills .skills #jquery {
     background-image: url("/assets/images/jquery.png"); }
   #skills .skills #java {
