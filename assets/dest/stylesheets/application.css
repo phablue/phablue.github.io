@@ -118,6 +118,9 @@ article {
     max-width: 350px;
     padding: 10px 5px; }
 
+footer {
+  background-color: #333; }
+
 .follow-me .fa {
   padding: 7px 10px;
   margin: 0 10px; }
