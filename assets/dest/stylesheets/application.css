@@ -40,7 +40,7 @@ section {
 article {
   padding: 0 20px; }
 
-.image, .main-img, #skills .skills div {
+.image, .main-img, #about-me .img-circle, #skills .skills div {
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto; }
@@ -51,7 +51,6 @@ article {
   height: 500px; }
 
 #about-me .img-circle {
-  @extend. .image;
   background-image: url("/assets/images/Me.png");
   background-position: left bottom;
   height: 200px;
@@ -59,10 +58,10 @@ article {
 
 #skills .skills {
   display: inline-block;
-  padding: 20px; }
+  padding: 35px; }
   #skills .skills div {
-    height: 100px;
-    width: 100px; }
+    height: 80px;
+    width: 80px; }
   #skills .skills #js {
     background-image: url("/assets/images/javascript.png"); }
   #skills .skills #jquery {
