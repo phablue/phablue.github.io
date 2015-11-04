@@ -64,6 +64,9 @@ article {
   height: 200px;
   margin: 20px auto;
   max-width: 200px; }
+#about-me .follow .fa {
+  margin: 15px;
+  padding: 10px; }
 
 #skills {
   background-color: #EEE; }
@@ -73,6 +76,8 @@ article {
     #skills .skills div {
       height: 80px;
       width: 80px; }
+    #skills .skills #css {
+      background-image: url("/assets/images/css.png"); }
     #skills .skills #js {
       background-image: url("/assets/images/javascript.png"); }
     #skills .skills #jquery {
@@ -98,6 +103,8 @@ article {
     height: 350px;
     margin: 15px auto;
     max-width: 350px; }
+  #projects .projects #seattle-humane {
+    background-image: url("/assets/images/seattlehumane.png"); }
   #projects .projects #coffeeshop {
     background-image: url("/assets/images/coffeeshop.png"); }
   #projects .projects #movie-ticket {
@@ -117,18 +124,5 @@ article {
     margin: 10px auto;
     max-width: 350px;
     padding: 10px 5px; }
-
-footer {
-  background-color: #333; }
-
-.follow-me .fa {
-  padding: 7px 10px;
-  margin: 0 10px; }
-.follow-me .fa-github {
-  color: Black; }
-.follow-me .fa-linkedin {
-  background-color: #0177B5;
-  border-radius: 10px;
-  color: #FFF; }
 
 /*# sourceMappingURL=application.css.map */
