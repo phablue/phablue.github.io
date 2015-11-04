@@ -16,6 +16,8 @@
     UI.prototype.navBarStyleChangeByScrollTop = function() {
       if ($(window).scrollTop() > 400) {
         return $(".navbar-default").css("background-color", "#333");
+      } else {
+        return $(".navbar-default").css("background-color", "rgba(51, 51, 51, 0.5)");
       }
     };
 
