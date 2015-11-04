@@ -5,6 +5,9 @@ section
 article
   padding: 30px 20px
 
+  h2
+    font-weight: 700
+
 .image
   background-repeat: no-repeat
   background-size: cover
@@ -55,14 +58,20 @@ article
 
 #projects
   .projects
-    .fa-*
-      font-size: 1.0em
-      color: black
+    padding: 35px 0
+
+    .fa
+      color: $icon-color
+      padding: 10px 20px
+
+      &:hover
+        color: $icon-hover-color
 
     .img-rounded
       @extend .image
       background-position: center
       height: 350px
+      max-width: 350px
 
     #coffeshop
       background-image: $project-coffeeshop-img
@@ -84,3 +93,7 @@ article
 
     #java-ttt
       background-image: $project-javattt-img
+
+    h5
+      background-color: $projects-skills-bg-color
+      padding: 10px 5px

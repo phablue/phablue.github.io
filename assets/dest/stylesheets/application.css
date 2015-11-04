@@ -11,8 +11,7 @@ a:hover {
   .navbar-default .navbar-collapse {
     background-color: #555; }
   .navbar-default .navbar-nav > li > a {
-    color: #FFF;
-    font-size: 1.3em; }
+    color: #FFF; }
     .navbar-default .navbar-nav > li > a:hover {
       color: #CCC; }
   .navbar-default .navbar-toggle {
@@ -39,6 +38,8 @@ section {
 
 article {
   padding: 30px 20px; }
+  article h2 {
+    font-weight: 700; }
 
 .image, .main-img, #about-me .img-circle, #skills .skills div, #projects .projects .img-rounded {
   background-repeat: no-repeat;
@@ -77,25 +78,43 @@ article {
   #skills .skills #rails {
     background-image: url("/assets/images/rails.png"); }
 
-#projects .projects .fa-* {
-  font-size: 1em;
-  color: black; }
-#projects .projects .img-rounded {
-  background-position: center;
-  height: 350px; }
-#projects .projects #coffeshop {
-  background-image: url("/assets/images/coffeeshop.png"); }
-#projects .projects #movie-ticket {
-  background-image: url("/assets/images/movieapp.png"); }
-#projects .projects #payday {
-  background-image: url("/assets/images/payday.png"); }
-#projects .projects #prismbox {
-  background-image: url("/assets/images/PrismBox.png"); }
-#projects .projects #food-map {
-  background-image: url("/assets/images/FoodMap.png"); }
-#projects .projects #web-ttt {
-  background-image: url("/assets/images/TicTacToe.png"); }
-#projects .projects #java-ttt {
-  background-image: url("/assets/images/JavaTicTacToe.png"); }
+#projects .projects {
+  padding: 35px 0; }
+  #projects .projects .fa {
+    color: Black;
+    padding: 10px 20px; }
+    #projects .projects .fa:hover {
+      color: #777; }
+  #projects .projects .img-rounded {
+    background-position: center;
+    height: 350px;
+    max-width: 350px; }
+  #projects .projects #coffeshop {
+    background-image: url("/assets/images/coffeeshop.png"); }
+  #projects .projects #movie-ticket {
+    background-image: url("/assets/images/movieapp.png"); }
+  #projects .projects #payday {
+    background-image: url("/assets/images/payday.png"); }
+  #projects .projects #prismbox {
+    background-image: url("/assets/images/PrismBox.png"); }
+  #projects .projects #food-map {
+    background-image: url("/assets/images/FoodMap.png"); }
+  #projects .projects #web-ttt {
+    background-image: url("/assets/images/TicTacToe.png"); }
+  #projects .projects #java-ttt {
+    background-image: url("/assets/images/JavaTicTacToe.png"); }
+  #projects .projects h5 {
+    background-color: #DDD;
+    padding: 10px 5px; }
+
+.follow-me .fa {
+  padding: 7px 10px;
+  margin: 0 10px; }
+.follow-me .fa-github {
+  color: Black; }
+.follow-me .fa-linkedin {
+  background-color: #0177B5;
+  border-radius: 10px;
+  color: #FFF; }
 
 /*# sourceMappingURL=application.css.map */
