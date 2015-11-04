@@ -40,7 +40,7 @@ section {
 article {
   padding: 30px 20px; }
 
-.image, .main-img, #about-me .img-circle, #skills .skills div {
+.image, .main-img, #about-me .img-circle, #skills .skills div, #projects .projects .img-rounded {
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto; }
@@ -75,5 +75,26 @@ article {
     background-image: url("/assets/images/ruby.png"); }
   #skills .skills #rails {
     background-image: url("/assets/images/rails.png"); }
+
+#projects .projects .fa-* {
+  font-size: 1em;
+  color: black; }
+#projects .projects .img-rounded {
+  background-position: center;
+  height: 350px; }
+#projects .projects #coffeshop {
+  background-image: url("/assets/images/coffeeshop.png"); }
+#projects .projects #movie-ticket {
+  background-image: url("/assets/images/movieapp.png"); }
+#projects .projects #payday {
+  background-image: url("/assets/images/payday.png"); }
+#projects .projects #prismbox {
+  background-image: url("/assets/images/PrismBox.png"); }
+#projects .projects #food-map {
+  background-image: url("/assets/images/FoodMap.png"); }
+#projects .projects #web-ttt {
+  background-image: url("/assets/images/TicTacToe.png"); }
+#projects .projects #java-ttt {
+  background-image: url("/assets/images/JavaTicTacToe.png"); }
 
 /*# sourceMappingURL=application.css.map */
