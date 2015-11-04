@@ -1,0 +1,2 @@
+$ ->
+  new UI.navBarConfig()
