@@ -42,7 +42,8 @@ article {
 
 .image, .main-img, #skills .skills div {
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  margin: auto; }
 
 .main-img {
   background-image: url("/assets/images/main-img-sm.png");
