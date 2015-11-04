@@ -49,6 +49,9 @@ article {
   background-image: url("/assets/images/main-img-sm.png");
   background-position: left top;
   height: 500px; }
+  @media only screen and (min-width: 768px) {
+    .main-img {
+      background-image: url("/assets/images/main-img-lg.png"); } }
 
 #about-me .img-circle {
   background-image: url("/assets/images/Me.png");

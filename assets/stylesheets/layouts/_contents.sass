@@ -12,9 +12,12 @@ article
 
 .main-img
   @extend .image
-  background-image: $main-img
+  background-image: $main-img-sm
   background-position: left top
   height: 500px
+
+  @media only screen and (min-width: 768px)
+    background-image: $main-img-lg
 
 #about-me
   .img-circle
