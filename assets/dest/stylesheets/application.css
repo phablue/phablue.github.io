@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700|Roboto+Condensed:400,700,400italic,700italic|Ubuntu:400,400italic,500,500italic,700,700italic);
+body {
+  font-family: "Roboto Condensed", sans-serif; }
+
+a:hover {
+  text-decoration: none; }
+
+.navbar-default {
+  background-color: rgba(51, 51, 51, 0.5);
+  border-color: #333; }
+  .navbar-default .navbar-collapse {
+    background-color: #555; }
+  .navbar-default .navbar-nav > li > a {
+    color: #FFF;
+    font-size: 1.3em; }
+    .navbar-default .navbar-nav > li > a:hover {
+      color: #CCC; }
+  .navbar-default .navbar-toggle {
+    border: 0;
+    color: #FFF; }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+      background-color: transparent; }
+    .navbar-default .navbar-toggle:hover {
+      color: #CCC; }
+    .navbar-default .navbar-toggle .fa-bars {
+      font-size: 2em; }
+
+.navbar-brand h2 {
+  color: #FFF;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  margin: 0; }
+  .navbar-brand h2:hover {
+    color: #CCC; }
+
+section {
+  margin-top: 60px; }
+
+.main-img {
+  background: url("/portfolio/assets/images/main-img-sm.png") no-repeat;
+  background-size: cover;
+  height: 500; }
+
+/*# sourceMappingURL=application.css.map */

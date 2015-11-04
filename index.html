@@ -13,125 +13,123 @@
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/">Hana Park</a>
-          <p class="navbar-sub-brand">SOFTWARE ENGINEER</p>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+            <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="/"><h2>Hana Park</h2></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/">HOME</a></li>
-            <li><a href="#about-me">ABOUT ME</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#about-me"> About Me </a></li>
+            <li><a href="#skills"> Skills </a></li>
+            <li><a href="#projects"> Projects </a></li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
   <!-- Contents -->
-  <div class="contents">
-    <!-- About Me -->
-    <section id="about-me">
-      <div class="container">
-        <div class="row" >
-          <h1>ABOUT ME</h1>
-          <img src="/assets/images/Me.png" class="img-circle">
-          <p>I'm a software engineer currently living in Seattle, originally from South Korea.</p>
-        </div>
-      </div>
-    </section>
-    <!-- Projects -->
-    <section id="projects">
-      <div class="container">
-        <div class="row" >
-          <h1>PROJECTS</h1>
-          <ul>
-            <!-- OnlineCoffeeShop Site -->
-            <li>
-              <img src="/assets/images/coffeeshop.png" class="img-rounded">
-              <div class="description">
-                <h2>Online CoffeeShop</h2>
-                <a href="https://github.com/phablue/OnlineCoffeeShop_NodeJS"><img src="/assets/images/GitHub-Mark.png"></a>
-                <h5>NodeJS, &nbsp JavaScript, &nbsp MySQL, &nbsp Jade, &nbsp CSS</h5>
-                <p>An online coffee shop for a ficticious coffee company. Users can create accounts, log in, log out, and add items to their shopping cart.</p>
-              </div>
-            </li>
-            <!-- Movie ticket reservation app -->
-            <li>
-              <img src="/assets/images/movieapp.png" class="img-rounded">
-              <div class="description">
-                <h2>Movie Ticket Reservation App</h2>
-                <a href="https://github.com/phablue/Ticket_Purchase_APP_NodeJS"><img src="/assets/images/GitHub-Mark.png"></a>
-                <h5>NodeJS, &nbsp JavaScript, &nbsp MySQL, &nbsp Jade, &nbsp CSS</h5>
-                <p>An application that allows users to choose a movie showtime and then select a seat for that showtime.</p>
-              </div>
-            </li>
-            <!-- Payday calculator -->
-            <li>
-              <img src="/assets/images/payday.png" class="img-rounded">
-              <div class="description">
-                <h2>Payday Calculator</h2>
-                <a href="https://github.com/phablue/Payday_Calculator_Ruby"><img src="/assets/images/GitHub-Mark.png"></a>
-                <h5>Ruby</h5>
-                <p>A command line application for calculating paydays.</p>
-              </div>
-            </li>
-            <!-- PrismBox -->
-            <li>
-              <img src="/assets/images/PrismBox.png" class="img-rounded">
-              <div class="description">
-                <h2>PrismBox : Internal hardware inventory tracking</h2>
-                <a href="https://github.com/phablue/PrismBox_Rails"><img src="/assets/images/GitHub-Mark.png"></a>
-                <h5>Ruby on Rails, &nbsp CoffeeScript, &nbsp CSS</h5>
-                <p>Allows users to request hardware and administrators to process, manage, and fulfill those inventory requests.</p>
-              </div>
-            </li>
-            <!-- Chicago Food Inspection Map -->
-            <li>
-              <img src="/assets/images/FoodMap.png" class="img-rounded">
-              <div class="description">
-                <h2>Chicago Food Inspection Map</h2>
-                <a href="http://grosskitchen.com/"><span class="glyphicon glyphicon-link"></span></a>
-                <a href="https://github.com/phablue/Food-Inspection-Map_CS"><img src="/assets/images/GitHub-Mark.png"></a>
-                <h5>CoffeeScript, &nbsp Backbone, &nbsp GruntJS, &nbsp HTML, &nbsp CSS</h5>
-                <p>Utilizes Chicago Open Data and the Google Maps API to display Food Inspection results for businesses around the city.</p>
-              </div>
-            </li>
-            <!-- Online Unbeatable TicTacToe -->
-            <li>
-              <img src="/assets/images/TicTacToe.png" class="img-rounded">
-              <div class="description">
-                <h2>Online Unbeatable TicTacToe</h2>
-                <a href="http://web-tictactoe.herokuapp.com"><span class="glyphicon glyphicon-link"></span></a>
-                <a href="https://github.com/phablue/TicTacToe_Sinatra"><img src="/assets/images/GitHub-Mark.png"></a>
-                <h5>JavaScript, &nbsp Ruby, &nbsp Sinatra, &nbsp HTML, &nbsp CSS</h5>
-                <p>Web TicTacToe Game. A user can choose game type for a single player or two players. The AI player uses a minimax algorithm and is unbeatable.</p>
-              </div>
-            </li>
-            <!-- Command Line Unbeatable TicTacToe -->
-            <li>
-              <img src="/assets/images/JavaTicTacToe.png" class="img-rounded">
-              <div class="description">
-                <h2>Command Line Unbeatable TicTacToe</h2>
-                <a href="https://github.com/phablue/TicTacToe_Java"><img src="/assets/images/GitHub-Mark.png"></a>
-                <h5>Java</h5>
-                <p>TicTacToe Game for the command line. A user can choose game type for a single player or two players. The AI player uses a minimax algorithm and is unbeatable.</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-  </div>
-  <!-- Footer -->
-  <div class="footer">
+  <section class="contents">
     <div class="container">
-      <a href="https://github.com/phablue" class="github"><img src="/assets/images/GitHub-Mark.png">GitHub</a>
-      <ul class="bottom-navbar-right">
-        <li><a href="/">HOME</a></li>
-        <li><a href="#about-me">ABOUT ME</a></li>
-        <li><a href="#projects">PROJECTS</a></li>
+      <!-- About Me -->
+      <article id="about-me">
+        <h2> About Me </h2>
+        <img src="/assets/images/Me.png" class="img-circle">
+        <p>I'm a software engineer currently living in Seattle, originally from South Korea.</p>
+      </article>
+      <!-- Skills -->
+      <article id="skills">
+        <h2> Skills </h2>
+      </article>
+      <!-- Projects -->
+      <article id="projects">
+        <h2> Projects </h2>
+        <ul>
+          <!-- OnlineCoffeeShop Site -->
+          <li>
+            <img src="/assets/images/coffeeshop.png" class="img-rounded">
+            <div class="description">
+              <h3>Online CoffeeShop</h3>
+              <a href="https://github.com/phablue/OnlineCoffeeShop_NodeJS"><i class="fa fa-github"></i></a>
+              <h5>NodeJS, &nbsp JavaScript, &nbsp MySQL, &nbsp Jade, &nbsp CSS</h5>
+              <p>An online coffee shop for a ficticious coffee company. Users can create accounts, log in, log out, and add items to their shopping cart.</p>
+            </div>
+          </li>
+          <!-- Movie ticket reservation app -->
+          <li>
+            <img src="/assets/images/movieapp.png" class="img-rounded">
+            <div class="description">
+              <h3>Movie Ticket Reservation App</h3>
+              <a href="https://github.com/phablue/Ticket_Purchase_APP_NodeJS"><i class="fa fa-github"></i></a>
+              <h5>NodeJS, &nbsp JavaScript, &nbsp MySQL, &nbsp Jade, &nbsp CSS</h5>
+              <p>An application that allows users to choose a movie showtime and then select a seat for that showtime.</p>
+            </div>
+          </li>
+          <!-- Payday calculator -->
+          <li>
+            <img src="/assets/images/payday.png" class="img-rounded">
+            <div class="description">
+              <h3>Payday Calculator</h3>
+              <a href="https://github.com/phablue/Payday_Calculator_Ruby"><i class="fa fa-github"></i></a>
+              <h5>Ruby</h5>
+              <p>A command line application for calculating paydays.</p>
+            </div>
+          </li>
+          <!-- PrismBox -->
+          <li>
+            <img src="/assets/images/PrismBox.png" class="img-rounded">
+            <div class="description">
+              <h3>PrismBox : Internal hardware inventory tracking</h3>
+              <a href="https://github.com/phablue/PrismBox_Rails"><i class="fa fa-github"></i></a>
+              <h5>Ruby on Rails, &nbsp CoffeeScript, &nbsp CSS</h5>
+              <p>Allows users to request hardware and administrators to process, manage, and fulfill those inventory requests.</p>
+            </div>
+          </li>
+          <!-- Chicago Food Inspection Map -->
+          <li>
+            <img src="/assets/images/FoodMap.png" class="img-rounded">
+            <div class="description">
+              <h3>Chicago Food Inspection Map</h3>
+              <a href="http://grosskitchen.com/"><span class="glyphicon glyphicon-link"></span></a>
+              <a href="https://github.com/phablue/Food-Inspection-Map_CS"><i class="fa fa-github"></i></a>
+              <h5>CoffeeScript, &nbsp Backbone, &nbsp GruntJS, &nbsp HTML, &nbsp CSS</h5>
+              <p>Utilizes Chicago Open Data and the Google Maps API to display Food Inspection results for businesses around the city.</p>
+            </div>
+          </li>
+          <!-- Online Unbeatable TicTacToe -->
+          <li>
+            <img src="/assets/images/TicTacToe.png" class="img-rounded">
+            <div class="description">
+              <h3>Online Unbeatable TicTacToe</h3>
+              <a href="http://web-tictactoe.herokuapp.com"><i class="fa fa-link"></i></a>
+              <a href="https://github.com/phablue/TicTacToe_Sinatra"><i class="fa fa-github"></i></a>
+              <h5>JavaScript, &nbsp Ruby, &nbsp Sinatra, &nbsp HTML, &nbsp CSS</h5>
+              <p>Web TicTacToe Game. A user can choose game type for a single player or two players. The AI player uses a minimax algorithm and is unbeatable.</p>
+            </div>
+          </li>
+          <!-- Command Line Unbeatable TicTacToe -->
+          <li>
+            <img src="/assets/images/JavaTicTacToe.png" class="img-rounded">
+            <div class="description">
+              <h3>Command Line Unbeatable TicTacToe</h3>
+              <a href="https://github.com/phablue/TicTacToe_Java"><i class="fa fa-github"></i></a>
+              <h5>Java</h5>
+              <p>TicTacToe Game for the command line. A user can choose game type for a single player or two players. The AI player uses a minimax algorithm and is unbeatable.</p>
+            </div>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <ul class="follow-me">
+        <li><a href="#github"><i class="fa fa-github"></i></a></li>
+        <li><a href="#projects"><i class="fa fa-linkedin"></i></a></li>
       </ul>
     </div>
-  </div>
+  </footer>
 </body>
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
