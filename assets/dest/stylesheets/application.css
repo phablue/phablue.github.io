@@ -41,7 +41,6 @@ article {
   padding: 0 20px; }
 
 .image, .main-img, #skills .skills div {
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -53,6 +52,7 @@ article {
 #about-me .img-circle {
   @extend. .image;
   background-image: url("/assets/images/Me.png");
+  background-position: center top;
   height: 200px;
   max-width: 200px; }
 
