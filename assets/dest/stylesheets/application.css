@@ -10,6 +10,9 @@ a:hover {
   border-color: #333; }
   .navbar-default .navbar-collapse {
     background-color: #555; }
+    @media only screen and (min-width: 780px) {
+      .navbar-default .navbar-collapse {
+        background-color: transparent; } }
   .navbar-default .navbar-nav > li > a {
     color: #FFF; }
     .navbar-default .navbar-nav > li > a:hover {
@@ -89,7 +92,7 @@ article {
     background-position: center;
     height: 350px;
     max-width: 350px; }
-  #projects .projects #coffeshop {
+  #projects .projects #coffeeshop {
     background-image: url("/assets/images/coffeeshop.png"); }
   #projects .projects #movie-ticket {
     background-image: url("/assets/images/movieapp.png"); }
