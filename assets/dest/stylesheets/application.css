@@ -47,11 +47,12 @@ article {
 
 .main-img {
   background-image: url("/assets/images/main-img-sm.png");
-  background-position: left top;
+  background-position: left center;
   height: 500px; }
   @media only screen and (min-width: 768px) {
     .main-img {
-      background-image: url("/assets/images/main-img-lg.png"); } }
+      background-image: url("/assets/images/main-img-lg.png");
+      height: 750px; } }
 
 #about-me .img-circle {
   background-image: url("/assets/images/Me.png");
