@@ -53,7 +53,7 @@ article {
 #about-me .img-circle {
   @extend. .image;
   background-image: url("/assets/images/Me.png");
-  background-position: center top;
+  background-position: left bottom;
   height: 200px;
   max-width: 200px; }
 
