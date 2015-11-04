@@ -1,2 +1,3 @@
 $ ->
-  new UI.navBarConfig()
+  ui = new UI
+  ui.navBarConfig()
