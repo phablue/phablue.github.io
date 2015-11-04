@@ -4,12 +4,10 @@
   UI = (function() {
     function UI() {}
 
-    UI.prototype.construcor = function() {};
-
     UI.prototype.navBarConfig = function() {
       return $(window).scroll((function(_this) {
         return function() {
-          return _this.navBarSylteChangeByScrollTop();
+          return _this.navBarStyleChangeByScrollTop();
         };
       })(this));
     };

@@ -1,9 +1,9 @@
 class UI
-  construcor: ->
+  constructor: ->
 
   navBarConfig: ->
     $(window).scroll =>
-      @navBarSylteChangeByScrollTop()
+      @navBarStyleChangeByScrollTop()
 
   navBarStyleChangeByScrollTop: ->
     if $(window).scrollTop() > 400
