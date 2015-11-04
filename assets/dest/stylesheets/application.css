@@ -65,22 +65,24 @@ article {
   margin: 20px auto;
   max-width: 200px; }
 
-#skills .skills {
-  display: inline-block;
-  padding: 35px; }
-  #skills .skills div {
-    height: 80px;
-    width: 80px; }
-  #skills .skills #js {
-    background-image: url("/assets/images/javascript.png"); }
-  #skills .skills #jquery {
-    background-image: url("/assets/images/jquery.png"); }
-  #skills .skills #java {
-    background-image: url("/assets/images/java.png"); }
-  #skills .skills #ruby {
-    background-image: url("/assets/images/ruby.png"); }
-  #skills .skills #rails {
-    background-image: url("/assets/images/rails.png"); }
+#skills {
+  background-color: #EEE; }
+  #skills .skills {
+    display: inline-block;
+    padding: 35px; }
+    #skills .skills div {
+      height: 80px;
+      width: 80px; }
+    #skills .skills #js {
+      background-image: url("/assets/images/javascript.png"); }
+    #skills .skills #jquery {
+      background-image: url("/assets/images/jquery.png"); }
+    #skills .skills #java {
+      background-image: url("/assets/images/java.png"); }
+    #skills .skills #ruby {
+      background-image: url("/assets/images/ruby.png"); }
+    #skills .skills #rails {
+      background-image: url("/assets/images/rails.png"); }
 
 #projects .projects {
   padding: 50px 0; }
