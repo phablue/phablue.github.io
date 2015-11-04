@@ -46,13 +46,13 @@ article {
   background-size: cover; }
 
 .main-img {
-  background-image: url("/assets/images/" "main-img-sm.png");
+  background-image: url("/assets/images/main-img-sm.png");
   background-position: left top;
   height: 500px; }
 
 #about-me .img-circle {
   @extend. .image;
-  background-image: url("/assets/images/" "Me.png");
+  background-image: url("/assets/images/Me.png");
   height: 250px;
   max-width: 250px; }
 
@@ -63,14 +63,14 @@ article {
     width: 128px;
     padding: 20px; }
   #skills .skills #js {
-    background-image: url("/assets/images/" "javascripts.png"); }
+    background-image: url("/assets/images/javascripts.png"); }
   #skills .skills #jquery {
-    background-image: url("/assets/images/" "jquery.png"); }
+    background-image: url("/assets/images/jquery.png"); }
   #skills .skills #java {
-    background-image: url("/assets/images/" "java.png"); }
+    background-image: url("/assets/images/java.png"); }
   #skills .skills #ruby {
-    background-image: url("/assets/images/" "ruby.png"); }
+    background-image: url("/assets/images/ruby.png"); }
   #skills .skills #rails {
-    background-image: url("/assets/images/" "rails.png"); }
+    background-image: url("/assets/images/rails.png"); }
 
 /*# sourceMappingURL=application.css.map */
