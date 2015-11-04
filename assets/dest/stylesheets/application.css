@@ -57,13 +57,13 @@ article {
   max-width: 250px; }
 
 #skills .skills {
-  display: inline-block; }
+  display: inline-block;
+  padding: 20px; }
   #skills .skills div {
-    height: 128px;
-    width: 128px;
-    padding: 20px; }
+    height: 100px;
+    width: 100px; }
   #skills .skills #js {
-    background-image: url("/assets/images/javascripts.png"); }
+    background-image: url("/assets/images/javascrip.png"); }
   #skills .skills #jquery {
     background-image: url("/assets/images/jquery.png"); }
   #skills .skills #java {
