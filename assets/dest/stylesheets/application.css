@@ -108,6 +108,7 @@ article {
     background-image: url("/assets/images/JavaTicTacToe.png"); }
   #projects .projects h5 {
     background-color: #DDD;
+    max-width: 350px;
     padding: 10px 5px; }
 
 .follow-me .fa {
