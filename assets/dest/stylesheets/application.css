@@ -105,6 +105,8 @@ article {
     max-width: 350px; }
   #projects .projects #bsides-seattle {
     background-image: url("/assets/images/bsides.png"); }
+  #projects .projects #set {
+    background-image: url("/assets/images/set.png"); }
   #projects .projects #anagram {
     background-image: url("/assets/images/anagram.png"); }
   #projects .projects #seattle-humane {
