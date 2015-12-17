@@ -103,6 +103,8 @@ article {
     height: 350px;
     margin: 15px auto;
     max-width: 350px; }
+  #projects .projects #bsides-seattle {
+    background-image: url("/assets/images/bsides.png"); }
   #projects .projects #anagram {
     background-image: url("/assets/images/anagram.png"); }
   #projects .projects #seattle-humane {
